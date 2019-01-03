@@ -1,19 +1,40 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 body {
-    margin: 0;
-    background-color: #efefef;
+    background-color: white;
 }
 .navbar{
     img {
         width: 28px;
         height: 28px;
+    }
+    input[placeholder] {
+        font-weight: 600;
+        padding: 0 0 0 35px;
+    }
+    .form-control{
+        background-image: url("../images/search-solid.svg");
+        background-repeat: no-repeat;
+        background-size: 25px;
+        background-position: 5px;
+        background-color: rgb(239, 239, 239);
+    }
+    .nav-link{
+        color: rgb(153, 153, 153);
+        font-weight: 900px;
+    }
+    border-bottom: 1px solid rgb(239, 239, 239);
+    background-color: white;
 }
-    border-bottom: 1px solid grey;
+.container{
+    margin-top: 20px;
+
 }
 .card{
+    margin-bottom: 28px;
+
     img{
         max-width:100%;
-        max-height:100%;
+        border-radius: 5px;
     }
 }
