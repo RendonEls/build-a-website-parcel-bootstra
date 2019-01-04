@@ -4,14 +4,17 @@ body {
     background-color: white;
 }
 .navbar{
+    .pad{padding:5px;}
     img {
         width: 28px;
         height: 28px;
     }
     .navbar-brand:hover{
+        padding: 5px;
         background-color: rgb(240, 240, 240);
-        padding: 7px;
-        border-radius: 50px;
+        // padding: 7px;
+        box-sizing: content-box;
+        border-radius: 50%;
     }
     input[placeholder] {
         font-weight: 600;
@@ -48,12 +51,15 @@ background-color: white;
     padding-left: 45px;
 
 }
-.cards{
-    margin-bottom: 28px;
+.card{
+    margin-bottom: 15px;
+    border: none;
 
     img{
         max-width:100%;
         border-radius: 5px;
     }
 }
-
+.card:hover{
+    background-color:rgb(242, 242, 242);
+}

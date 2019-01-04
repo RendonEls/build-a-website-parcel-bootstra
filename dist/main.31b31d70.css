@@ -9519,14 +9519,18 @@ body {
   border-bottom: 1px solid #efefef;
   background-color: white;
 }
+.navbar .pad {
+  padding: 5px;
+}
 .navbar img {
   width: 28px;
   height: 28px;
 }
 .navbar .navbar-brand:hover {
+  padding: 5px;
   background-color: #f0f0f0;
-  padding: 7px;
-  border-radius: 50px;
+  box-sizing: content-box;
+  border-radius: 50%;
 }
 .navbar input[placeholder] {
   font-weight: 600;
@@ -9560,10 +9564,15 @@ body {
   padding-left: 45px;
 }
 
-.cards {
-  margin-bottom: 28px;
+.card {
+  margin-bottom: 15px;
+  border: none;
 }
-.cards img {
+.card img {
   max-width: 100%;
   border-radius: 5px;
+}
+
+.card:hover {
+  background-color: #f2f2f2;
 }
