@@ -9512,6 +9512,58 @@ h3 {
   }
 }
 body {
-  margin: 0;
+  background-color: white;
+}
+
+.navbar {
+  border-bottom: 1px solid #efefef;
+  background-color: white;
+}
+.navbar img {
+  width: 28px;
+  height: 28px;
+}
+.navbar .navbar-brand:hover {
+  background-color: #f0f0f0;
+  padding: 7px;
+  border-radius: 50px;
+}
+.navbar input[placeholder] {
+  font-weight: 600;
+  padding: 0 0 0 35px;
+}
+.navbar .form-control {
+  background-image: url("search-solid.0775d8ee.svg");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 5px;
   background-color: #efefef;
+  min-width: 250px;
+}
+.navbar .nav-link {
+  color: #999999;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.navbar .nav-link:hover {
+  background-color: #f0f0f0;
+  border-radius: 25px;
+}
+.navbar .home {
+  font-weight: 900;
+  color: black;
+}
+
+.container-fluid {
+  margin-top: 20px;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+.cards {
+  margin-bottom: 28px;
+}
+.cards img {
+  max-width: 100%;
+  border-radius: 5px;
 }
