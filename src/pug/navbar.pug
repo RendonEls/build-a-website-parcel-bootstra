@@ -1,22 +1,24 @@
 .navbar.sticky-top.navbar-expand
-    img(src="../images/pinterest.png")
-    a.navbar-brand(href="#") 
-    form.form-inline
-        //- i.fas.fa-search
+    a.navbar-brand(href="")
+        img(src="../images/pinterest.png")
+        form.form-inline
     input(placeholder='Search').form-control
-    ul.navbar-nav 
-            li.nav-item.active
-                a.nav-link(href="#") Home
+    ul.navbar-nav
+            li.nav-item.navbar-nav
+                a.nav-link.home(href="#").d-none.d-lg-inline.d-xl-inline  Home
+            li.nav-item.navbar-nav
+                a.nav-link(href="#").d-none.d-lg-inline.d-xl-inline Following
             li.nav-item
-                a.nav-link(href="#") Following
+                a.nav-link(href="#").d-none.d-lg-block.d-xl-block Account
             li.nav-item
-                a.nav-link(href="#") Account
+                a.nav-link(href="#")
+                    i.fas.fa-user-friends.d-lg-none.d-xl-none
+            li.nav-item.navbar-nav
+                a.nav-link(href="#")
+                    i.far.fa-comment
             li.nav-item
-                a.nav-link.disabled(href="#")
-            img(src="../images/bubble.png")
+                a.nav-link
+                    i.fas.fa-bell
             li.nav-item
-                a.nav-link.disabled
-            img(src="../images/pinterest.png")
-            li.nav-item
-                a.nav-link.disabled
-            img(src="../images/pinterest.png")
+                a.nav-link
+                    i.fas.fa-ellipsis-h
