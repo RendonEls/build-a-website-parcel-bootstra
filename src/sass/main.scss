@@ -54,7 +54,9 @@ background-color: white;
 .card{
     margin-bottom: 15px;
     border: none;
-
+    .card-text{
+        color: rgb(142, 142, 142)
+    }
     img{
         max-width:100%;
         border-radius: 5px;
@@ -62,4 +64,5 @@ background-color: white;
 }
 .card:hover{
     background-color:rgb(242, 242, 242);
+    border-radius: 7px;
 }
